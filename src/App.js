@@ -35,7 +35,7 @@ export default class App extends Component {
       <div className="App">
         <form onSubmit={this.addNewTodo}>
           <label>
-            To Do list:
+            To Do List:
             <hr />
             <input type="text" value={this.state.input} onChange={this.inputChange} />
           </label>
