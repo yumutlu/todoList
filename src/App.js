@@ -39,7 +39,7 @@ export default class App extends Component {
             <hr />
             <input type="text" value={this.state.input} onChange={this.inputChange} />
           </label>
-          <input type="submit" value="add" />
+          <input type="submit" value="Add" />
         </form>
         {this.state.todoList.map(item => <li key={item}>{item}</li>)}
       </div>
